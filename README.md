@@ -47,7 +47,7 @@ done
 
 zip przetworzone_zdjecia.zip *.jpg
 ```
-###  Zadanie 8:Wszędzie te PDF-y
+###  Zadanie 8: Wszędzie te PDF-y
 ```bash
 
 @media print {
@@ -70,7 +70,7 @@ zip przetworzone_zdjecia.zip *.jpg
 
 "/c/Program Files/Google/Chrome/Application/chrome.exe" --headless --disable-gpu --print-to-pdf="portfolio.pdf" index.html
 ```
-### Zadanie 9:Porządki w kopiach zapasowych
+### Zadanie 9: Porządki w kopiach zapasowych
 ```bash
 mkdir -p kopie
 
