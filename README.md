@@ -24,7 +24,7 @@ awk -F'[ ,();]+' '/INSERT/ { print substr($8, 1, length($8)-3) ";" $9 ";" $10 }'
 ```
 ### Zadanie 6: Marudny tłumacz
 ```bash
-sed 's/.*: ".*",/    \/\/ &\n&/' en-7.2.json5 > pl-7.2.json5
+sed 's/.*: ".*",/    \/\/ &\n&/' en-7.2.json5 > pl-7.2.json5 
 
 diff en-7.2.json5 en-7.4.json5 | grep "^>" | sed 's/^> //' > pl-7.4.json5
 ```
