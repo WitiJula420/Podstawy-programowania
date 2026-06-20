@@ -20,3 +20,9 @@ paste - - - < dane.txt >> wynik.txt
 `diff -u lista.txt lista-pop.txt > latka.patch`
 
 `patch lista.txt < latka.patch`
+
+### Zadanie 5: Z CSV do SQL i z powrotem
+
+Konwersja z pliku CSV do instrukcji SQL:
+```bash
+awk -F';' 'NR>1 {print "INSERT INTO stepsData (time, intensity, steps) VALUES ("$1", "$2", "$3");"}' steps-2sql.csv > do_bazy.sql
