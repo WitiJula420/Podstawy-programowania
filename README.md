@@ -16,7 +16,7 @@ paste - - - < dane.txt >> wynik.txt
 
 Zadanie 4: Dodawanie poprawek
 
-```bash
+```
 
 `diff -u lista.txt lista-pop.txt > latka.patch`
 
