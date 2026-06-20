@@ -2216,3 +2216,23 @@
 <div class="clearfix"></div>
 </body>
 </html>
+<style>
+@media print {
+  body { margin: 0; padding: 0; background: white; }
+  .responsive { 
+    width: 50% !important; 
+    float: left !important; 
+    box-sizing: border-box !important;
+    padding: 10px !important;
+    page-break-inside: avoid !important;
+  }
+  .gallery img { 
+    width: 100% !important; 
+    height: 220px !important; 
+    object-fit: cover !important; 
+  }
+  /* Po co ósmym kafelku wymuszamy nową stronę A4 */
+  .responsive:nth-child(8n) { page-break-after: always !important; }
+}
+</style>
+<style>@media print { @page { margin: 0; } }</style>
