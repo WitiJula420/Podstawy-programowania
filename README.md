@@ -47,7 +47,7 @@ done
 
 zip przetworzone_zdjecia.zip *.jpg
 ```
-###  Zadanie8:Wszędzie te PDF-y
+###  Zadanie 8:Wszędzie te PDF-y
 ```bash
 
 @media print {
