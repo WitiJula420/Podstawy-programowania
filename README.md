@@ -2,7 +2,8 @@
 
 
 
-~Zadanie 3: Niesforne dane
+
+### Zadanie 3: Niesforne dane
 
 ```bash
 
@@ -12,7 +13,7 @@ echo -e "x\\ty\\tz" > wynik.txt
 
 paste - - - < dane.txt >> wynik.txt
 
-~Zadanie 4: Dodawanie poprawek
+### Zadanie 4: Dodawanie poprawek
 
 `diff -u lista.txt lista-pop.txt > latka.patch`
 
