@@ -2,13 +2,7 @@
 
 
 
-\### Zadanie 3: Niesforne dane
-
-
-
-Rozwiązanie polegało na naprawieniu formatowania końców linii (z DOS na UNIX), dodaniu nagłówka i połączeniu pojedynczej kolumny w trzy:
-
-
+~Zadanie 3: Niesforne dane
 
 ```bash
 
@@ -18,3 +12,8 @@ echo -e "x\\ty\\tz" > wynik.txt
 
 paste - - - < dane.txt >> wynik.txt
 
+~Zadanie 4: Dodawanie poprawek
+
+`diff -u lista.txt lista-pop.txt > latka.patch`
+
+`patch lista.txt < latka.patch`
